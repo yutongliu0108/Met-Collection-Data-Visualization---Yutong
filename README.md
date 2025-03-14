@@ -11,9 +11,11 @@ The project visualizes the connections between artists and the mediums they use,
 Please install all necessary libraries:
 
 -Step 1: Create a Virtual Environment
+
 python -m venv venv
 
 -Step 2: Activate the Virtual Environment
+
 Windows:
 venv\Scripts\activate
 
@@ -21,12 +23,19 @@ Mac/Linux:
 source venv/bin/activate
 
 -Step 3: Install the Following Manually:
+
 pip install requests
+
 pip install pandas
+
 pip install plotly
+
 pip install streamlit
+
 pip install networkx
+
 pip install seaborn
+
 pip install matplotlib
 
 ## Usage
@@ -34,6 +43,7 @@ pip install matplotlib
 - Open terminal and go to the project folder.
 - Run the following command to start the Streamlit app:
 streamlit run visualization_all.py
+
 for the one using plotly:
 python visualization_1_plotly
 
