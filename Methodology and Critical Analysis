@@ -1,0 +1,28 @@
+##Methodology explanation
+
+Visualization Selection
+
+Network Graph: I created this graph to show the relationships between artists and mediums based on the data, making it easy to see which artists used which mediums.
+Animated Bar Chart: This chart shows how the number of artworks by each artist has changed over time.
+Scatter Plot: This plot looks at the relationship between artwork size and creation year, helping us understand if there’s any correlation between the two.
+
+Data Preparation
+
+Data Source: The data I used comes directly from The Met Museum’s publicly available API, which provides all the object data I need.
+Data Sampling: I used a sample of 200 objects to avoid overloading with too much data. This keeps things manageable while still giving a good overview.
+Data Cleaning: I removed any records with missing important information and made sure to convert the artwork dimensions into numeric values so they could be properly analyzed.
+
+##Critical Analysis
+
+Limitations
+
+Data Sampling: I only used 200 objects for simplicity and ease of analysis. However, this might not fully represent the museum’s entire collection, so in the future, I could use a more varied sample.
+Data Cleaning: I removed entries with missing data, which may have caused the loss of some useful information. Using other methods to fill in missing data could be an option in the future.
+Analysis Scope: Right now, I’ve only looked at the relationship between dimensions and creation year, but there are other factors (like medium or art style) that could be influencing the results, which I haven’t considered yet.
+
+Potential Improvements
+
+More Data: I could collect more data, like pulling info from the whole museum or focusing on a specific exhibition, to get a more comprehensive analysis.
+Better Data Cleaning: In the future, I could try better ways to handle missing data, like using imputation instead of just removing rows.
+Improved Visualizations: Adding more features to the visualizations or using more complex charts could give a clearer picture of the data.
+Increased Interactivity: I could let users interact with the data more, like by allowing them to filter based on certain conditions, making the app more engaging.
