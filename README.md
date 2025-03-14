@@ -4,7 +4,7 @@ The project visualizes the connections between artists and the mediums they use,
 - 3 main visualizations:
   1. **Network Graph**: Artist connections based on shared mediums.
   2. **Animated Bar Chart**: Number of objects by artist over time.
-  3. **Heatmap**: Correlation between object dimensions and dates.
+  3. **Scatter Plot**: Correlation between object dimensions and dates.
 
 ## Installation
 
