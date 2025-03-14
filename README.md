@@ -1,10 +1,12 @@
 ## Project Overview
 - Visualizations using data from the Met Museum Collection:
 The project visualizes the connections between artists and the mediums they use, utilizing data from the Metropolitan Museum of Art's API. 3 visualizations are created using Plotly and Streamlit to represent these relationships.
+- There are to python files for the code. The full_code.py contains all the three visualizations methods displayed by streamlit. The visualization_1.py contains the Network graph only, displayed with plotly.
 - 3 main visualizations:
   1. **Network Graph**: Artist connections based on shared mediums.
   2. **Animated Bar Chart**: Number of objects by artist over time.
   3. **Scatter Plot**: Correlation between object dimensions and dates.
+     
 
 ## Installation
 
@@ -48,10 +50,10 @@ pip install matplotlib
 
 - Open terminal and go to the project folder.
 - Run the following command to start the Streamlit app:
-streamlit run visualization_all.py
+streamlit run full_code.py
 
 for the one using plotly:
-python visualization_1_plotly
+python visualization_1.py
 
 ## Data Source
 
