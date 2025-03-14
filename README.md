@@ -10,19 +10,16 @@ The project visualizes the connections between artists and the mediums they use,
 
 Please install all necessary libraries:
 
-Step 1: Create a Virtual Environment
-
+-Step 1: Create a Virtual Environment
 python -m venv venv
 
-Step 2: Activate the Virtual Environment
-
+-Step 2: Activate the Virtual Environment
 Windows:
 venv\Scripts\activate
 Mac/Linux:
 source venv/bin/activate
 
-Step 3: Install the Following Manually
-
+-Step 3: Install the Following Manually:
 pip install requests
 pip install pandas
 pip install plotly
