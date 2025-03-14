@@ -22,7 +22,13 @@ venv\Scripts\activate
 Mac/Linux:
 source venv/bin/activate
 
--Step 3: Install the Following Manually:
+-Step 3: Install the required packages using the `requirements.txt` file:
+
+～Navigate to your project directory run the following:
+
+pip install -r requirements.txt
+
+～Or Install the Following Manually:
 
 pip install requests
 
